@@ -1,20 +1,17 @@
 #include<stdio.h>
 #include<conio.h>
-int main ()
-{
-   int income ,y=10,c=5;
-   int ten,five,bath;
-   
-   printf("Enter your money;");
-   scanf("%d",income);
-   ten = income/y;
-   five = (income%y)/c;
-   bath= (income%c);
-   printf("in your money =%d",income);
-   printf("in your change Ten coin =%d",ten);
-   printf("in your change Five coin =%d",five);
-   printf("in your change Bath coin =%d",bath);
-   
-   getch ();
-   return 0;
+main()
+{ 
+  int ix=5;
+  unsigned int ux=5;
+  long int lx=5;
+  printf("ix =%d\n",ix);
+  printf("ux =%u\n",ux);
+  printf("lx =%ld\n",lx);
+  printf("50000 times of ix =%ld\n",ix*50000);
+  printf("50000 times of ux =%lu\n",ux*50000);
+  printf("5000000 times of ux =%lu\n",ux*5000000);
+  printf("5000000 times of lx =%ld\n",lx*5000000);
+  getch();
+  return 0;  
 }
